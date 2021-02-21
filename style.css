@@ -320,11 +320,11 @@ footer ul li a:hover{
 
     /*nav bar*/
    nav{
-       margin: 0 ;
+       margin: -16px ;
     }
 
     nav img  {
-      width: 28%;
+      width: 20%;
     }
 
 /* manipulate div(s) in the site  */
@@ -396,9 +396,14 @@ footer ul li a:hover{
     .testimonial-box{
         
 
-       display: block;
-       width: 370px;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
        text-align: start;
+    }
+    .testimonial-box #quote{
+        width: 13px ;
+        height: 12px;
     }
 
 /*footer*/
@@ -426,4 +431,18 @@ footer ul li a:hover{
        text-align: center;
    }
    
+}
+
+@media screen and (max-width : 331px){
+    nav{
+        margin: -26px ;
+     }
+ 
+     nav img  {
+       width: 20%;
+     }
+
+     nav ul li {
+         margin: 0 0 15px 15px;
+     }
 }
