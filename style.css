@@ -310,7 +310,9 @@ footer ul li a:hover{
      margin-right: 10px;
 }
 
-@media screen and (max-width: 768px){
+/*max-width: 768px*/
+
+@media screen and (max-width : 375px){
 
     body{
         text-align: center;
