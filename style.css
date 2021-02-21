@@ -1,0 +1,427 @@
+/* Headings, Call-to-actions, Header Navigation   font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: 'Open Sans', sans-serif;   
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+h1 , h2 , h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+#gray{
+    color:hsl(0, 0%, 75%);
+}
+
+.outlink{
+    color: hsl(170, 45%, 43%);
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+
+    padding:30px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+   
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex > div
+{
+    flex: 1;
+}
+
+.flex > div:first-child{
+    margin-right: 60px;
+
+}
+
+.flex > div:last-child{
+    margin-left: 20px;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content:space-between ;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    
+   margin-left: 40px;
+}
+
+nav a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color:hsl(243, 87%, 12%)
+
+
+    
+}
+
+/* form settings*/
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+input::placeholder{
+    color:  hsl(0, 0%, 75%);
+}
+
+form input{
+    flex: 0.8;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 2px;
+    outline: none;
+    
+
+}
+
+button{
+    padding: 15px;
+    border: 1px solid hsl(224, 93%, 58%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    flex:0.4;
+    border-radius: 2px;
+    background-color:hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color:  hsl(170, 45%, 43%);
+}
+
+/* middle section*/
+
+.curve{
+    background-color: hsl(240, 75%, 98%);
+    margin-top: 170px;
+    position: relative;
+    padding: 50px 0 ;
+    
+}
+.curve::before{
+    content:'';
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.DesaturatedBlue{
+
+    background-color: hsl(238, 22%, 44%);
+    color:hsl(240, 75%, 98%);
+    padding: 25px;
+}
+
+.edit_p p {
+    padding-left: 18px;
+ }
+
+/*second form */
+.DesaturatedBlue form{
+
+   flex-direction:column ;
+    
+}
+
+
+.DesaturatedBlue form input{
+    
+    
+    flex:1;
+    padding: 15px;
+    border: none;
+    box-shadow: 3px 3px  rgba(0, 0 , 0 , 0.09);
+    
+}
+
+.DesaturatedBlue form button{
+   
+    width: max-content;
+    margin: 20px 0;
+    box-shadow: 3px 3px  rgba(0, 0 , 0 , 0.09);
+    
+}
+
+
+
+/*testimonial-box*/
+
+.testimonial-box{
+    background-color:#fff;
+    padding: 20px;
+    margin-top: 40px;
+    width: 65%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.12) ;
+}
+
+.testimonial-box p{
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-size: 13px;
+}
+
+.user-info{
+    display: flex;
+}
+.user-info img{
+    width:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userdata h5{
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+/*footer*/
+
+
+footer {
+   
+    background-color: hsl(243, 87%, 12%);
+    color:  hsl(240, 75%, 98%);
+    
+}
+
+
+.lists{
+
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.email{
+    margin-top: 15px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+footer ul li{
+    margin-left: 10px;
+    padding: 10px;
+    display: block;
+
+}
+
+ .socialmedia li{
+    margin-left: 10px;
+    padding: 10px;
+    display: inline;
+
+}
+
+footer ul li a{
+
+    text-decoration: none;
+    color: hsl(240, 75%, 98%)
+
+}
+
+footer ul li a:hover{
+   color:hsl(238, 22%, 44%);
+
+}
+
+/*images settings for footer*/
+
+.socialmedia img{
+   width:30px;
+
+}
+
+#footerlogo{
+    margin: 133px 0 0 155px;
+}
+
+.communication{
+
+    display: flex;
+    flex-direction: column;
+    margin: 21px 0 0 142px;
+}
+
+.communication img{
+    width :20px;
+     height : 16px; 
+     margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        text-align: center;
+    }
+
+    /*nav bar*/
+   nav{
+       margin: 0 ;
+    }
+
+    nav img  {
+      width: 28%;
+    }
+
+/* manipulate div(s) in the site  */
+    .flex{
+        flex-direction:column-reverse;
+    }
+
+
+
+   
+    .flex > div{
+        width: 100%;
+    }
+
+    .flex > div:first-child{
+        margin-right: 0;
+    
+    }
+    
+    .flex > div:last-child{
+        margin-left: 0;
+    
+    }
+
+    /* first form*/
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    form button{
+        
+        margin: 10px 0;
+        padding:15px;
+        
+        
+    }
+
+    form input{
+        padding: 10px ;
+        justify-content: center;
+        
+    }
+   
+    .curve::before{
+        content:'';
+        background-image: url(./images/bg-curve-mobile.svg);}
+
+    
+
+    
+
+
+
+    /*second form*/
+    
+    .secondform input{
+
+        flex: 1;
+
+    }
+    .secondform button{
+       min-width:374px;
+     
+    }
+
+
+    .testimonial-box{
+        
+
+       display: block;
+      width: 370px;
+      text-align: start;
+    }
+
+/*footer*/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        
+    }
+
+    .lists{
+        flex-direction: column;
+    }
+#footerlogo{
+   margin : 65px 0 10px 50px;
+}
+
+.communication{
+    margin: 10px 0 40px 20px;
+}
+
+   .socialmedia{
+       text-align: center;
+   }
+   
+}
