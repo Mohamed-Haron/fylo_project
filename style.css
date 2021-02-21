@@ -357,7 +357,7 @@ footer ul li a:hover{
     form button{
         
         margin: 10px 0;
-        padding:15px;
+        padding:10px 118px;
         
         
     }
@@ -378,7 +378,7 @@ footer ul li a:hover{
 
 
 
-    /*second form*/
+    /*second form
     
     .secondform input{
 
@@ -389,14 +389,14 @@ footer ul li a:hover{
        min-width:374px;
      
     }
-
+*/
 
     .testimonial-box{
         
 
        display: block;
-      width: 370px;
-      text-align: start;
+       width: 370px;
+       text-align: start;
     }
 
 /*footer*/
