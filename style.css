@@ -24,7 +24,7 @@ h1 , h2 , h5{
     font-weight: 700;
 }
 
-#gray{
+.gray{
     color:hsl(0, 0%, 75%);
 }
 
@@ -319,13 +319,18 @@ footer ul li a:hover{
     }
 
     /*nav bar*/
-   nav{
-       margin: -16px ;
+   nav ul li {
+       margin: 0 0 10px 15px ;
     }
 
     nav img  {
       width: 20%;
     }
+
+    .mobile{
+        color:hsl(0, 0%, 75%);
+}
+   
 
 /* manipulate div(s) in the site  */
     .flex{
@@ -401,9 +406,12 @@ footer ul li a:hover{
        width: 100%;
        text-align: start;
     }
+
+    
     .testimonial-box #quote{
         width: 13px ;
         height: 12px;
+        margin-bottom: 8px;
     }
 
 /*footer*/
@@ -433,6 +441,7 @@ footer ul li a:hover{
    
 }
 
+
 @media screen and (max-width : 331px){
     nav{
         margin: -26px ;
@@ -442,7 +451,15 @@ footer ul li a:hover{
        width: 20%;
      }
 
-     nav ul li {
-         margin: 0 0 15px 15px;
-     }
+     .mobile{
+        color:hsl(0, 0%, 75%);
+}
+
+     .testimonial-box #quote{
+        width: 13px ;
+        height: 12px;
+        margin-bottom: 8px;
+    }
+
+    
 }
